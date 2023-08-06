@@ -1,0 +1,3 @@
+# ERS
+employee review system made using Node.js and EJS (Embedded JavaScript) is a web application that allows companies to manage and conduct employee performance evaluations. It facilitates the process of creating, updating, and viewing employee reviews within the organization.
+To create this system, you would use Node.js and Express.js to build the backend, EJS for rendering dynamic views, and a database to store and manage the data. You can also use other libraries or frameworks to enhance the functionality and user experience of the application, such as Bootstrap for styling or Socket.IO for real-time communication.
