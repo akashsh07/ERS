@@ -1,0 +1,55 @@
+
+/* The styling for sign-in / sign-up / forgetPassword is same */
+/* It is the main container */
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid rgba(0,0,0,.2);
+    text-decoration: none;
+}
+
+.formInput{
+     background-color:#eeebe8;
+     height: 70vh;
+     width: 60vw;
+}
+
+.formInput form{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+form input{
+    width: 70%;
+    height:15%;
+    margin: 10px 0px;
+    border: 2px solid rgba(255,0,0,.2);
+    border-radius:2rem;
+    padding: 10px;
+}
+form input:hover{
+    background-color: #d3d1d0;
+}
+/* Styling for the button, and submit button */
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.submitButtons button{
+    width: 60%;
+    border: 2px solid rgba(255,0,0,.4);
+    border-radius: 2rem;
+    background-color: #eeebe8;
+}
+.submitButtons button:hover{
+    background-color: #d3d1d0;
+}
+
+.extraStuff{
+    margin-top: 20px;
+}
